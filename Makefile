@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
  
 PKG_NAME := gitea
-PKG_VERSION := 1.17.3
+PKG_VERSION := 1.21.5
 PKG_RELEASE := 1
 
 PKG_BUILD_DIR := $(BUILD_DIR)/gitea-$(PKG_VERSION)
 PKG_SOURCE_URL := https://github.com/go-gitea/gitea/archive/refs/tags/
 PKG_SOURCE := v$(PKG_VERSION).tar.gz
-PKG_HASH := 37c5357802395d7c0684b5a09cd2c2cbf426be20a7fa91178f4e8923584f7feb
+PKG_HASH := d6f1ab196011cb53e98abfa2a85d7b5a730a69ea426cc1e24a451e410b76a7a5
 PKG_BUILD_DEPENDS := golang/host npm/host nodejs/host
 PKG_BUILD_PARALLEL := 1
 
